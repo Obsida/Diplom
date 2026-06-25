@@ -1,0 +1,61 @@
+/**
+ * Палитра сайта — меняйте только эти три цвета.
+ *
+ * --color-white   — фон страницы (всегда белый), navbar и footer
+ * --color-secondary — фон блоков: сайдбар, панели, карточки-области
+ * --color-accent  — кнопки действий, ссылки, бейджи (не меню и не select)
+ * --color-accent-hover — кнопки действий при наведении (hover)
+ * --color-secondary-hover — фон второстепенных блоков/кнопок при наведении (hover)
+ */
+:root {
+  --color-white: #ffffff;
+  --color-secondary: #e8f2ff;
+  --color-accent: #234e70;
+  --color-accent-hover: #1d405c;
+  --color-secondary-hover: #d2e4ff;
+
+  /* Служебные (не редактировать) */
+  --color-page: var(--color-white);
+  --color-surface: var(--color-secondary);
+  --color-chrome: var(--color-white);
+  --color-hero-bg: #e3f2fb;
+  --color-field-disabled: #e8eaef;
+  --color-text: #1a2332;
+  --color-text-muted: #5c6678;
+  --color-border: color-mix(in srgb, var(--color-text) 14%, var(--color-white));
+  --color-on-accent: var(--color-white);
+
+  --md-sys-color-primary: var(--color-accent);
+  --md-sys-color-on-primary: var(--color-on-accent);
+  --md-sys-color-primary-container: var(--color-secondary);
+  --md-sys-color-on-primary-container: var(--color-text);
+
+  --md-sys-color-secondary: var(--color-accent);
+  --md-sys-color-on-secondary: var(--color-on-accent);
+  --md-sys-color-secondary-container: var(--color-secondary);
+  --md-sys-color-on-secondary-container: var(--color-text);
+
+  --md-sys-color-tertiary: var(--color-accent);
+  --md-sys-color-on-tertiary: var(--color-on-accent);
+  --md-sys-color-tertiary-container: var(--color-secondary);
+  --md-sys-color-on-tertiary-container: var(--color-text);
+
+  --md-sys-color-surface: var(--color-page);
+  --md-sys-color-on-surface: var(--color-text);
+  --md-sys-color-surface-variant: var(--color-secondary);
+  --md-sys-color-on-surface-variant: var(--color-text-muted);
+
+  --md-sys-color-surface-container-lowest: var(--color-white);
+  --md-sys-color-surface-container-low: var(--color-white);
+  --md-sys-color-surface-container: var(--color-secondary);
+  --md-sys-color-surface-container-high: var(--color-secondary);
+  --md-sys-color-surface-container-highest: var(--color-secondary);
+
+  --md-sys-color-outline: var(--color-border);
+  --md-sys-color-outline-variant: var(--color-border);
+
+  --md-sys-color-error: #b3261e;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-error-container: #f9dedc;
+  --md-sys-color-on-error-container: #410e0b;
+}
